@@ -14,7 +14,7 @@ attributes = ["sepal_length", "sepal_width", "petal_length", "petal_width", "Cla
 df.columns = attributes
 print (df.describe())
 ```
-![i](/image1.jpeg)
+![](/image1.jpeg)
 ## plot a histogram for each numerical attribute
 ``` python, term= True
 df.hist(bins=50, figsize=(20,15))
