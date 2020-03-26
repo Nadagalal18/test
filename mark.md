@@ -14,12 +14,12 @@ attributes = ["sepal_length", "sepal_width", "petal_length", "petal_width", "Cla
 df.columns = attributes
 print (df.describe())
 ```
-![i](/image1.jbeg)
+![i](image1.jbeg)
 ## plot a histogram for each numerical attribute
 ``` python, term= True
 df.hist(bins=50, figsize=(20,15))
 plt.show()
 
 ```
-![](/image2.jbeg)
-![](/image3.jbeg)
+![](image2.jbeg)
+![](image3.jbeg)
